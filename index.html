@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+
+    <title>Portia lakhani</title>
+
+    <!-- meta tags for SEO and social sharing -->
+    <link
+      rel="canonical"
+      href="https://github.com/MonicaFidalgo/my-first-portfolio-final"
+    />
+    <meta name="description" content="My Cool Portfolio" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="AtomicFox Portfolio" />
+    <meta property="og:type" content="article" />
+    <!-- <meta property="og:url" content="your url here" /> -->
+    <meta property="og:description" content="My Cool Portfolio" />
+
+    <!-- import bootstrap library-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- import font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="header-content">
+      <div class="header-logo">
+        <img src="assets/logo.png" alt="Logo Image" />
+      </div>
+      <div class="d-flex align-items-center">
+        <nav class="header-navigation">
+          <ul class="header-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <button class="button button-secondary-rounded" id="change-theme">
+          Change theme
+        </button>
+      </div>
+    </div>
+    <!-- the wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="container" role="main">
+        <!-- this is the start of content for our page -->
+        <section class="row intro">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="title">Portia Lakhani!!</h1>
+            <p>
+              I'm a
+              <span> Data Analyst </span>
+              focused on developing and analyzing datas as well as an enthusiast.
+            </p>
+            <a href="" class="button button-primary"> Github </a>
+            <a href="" class="button button-secondary"> LinkedIn </a>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img
+              src="assets/dev.png"
+              alt="Draw of a woman sitting at a computer, problably a developer"
+              class="intro-img"
+            />
+          </div>
+        </section>
+        <!-- About -->
+        <section class="row about" id="about">
+          <div class="col-12">
+            <h2 class="heading">About me</h2>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="about-img">
+              <img src="./assets/WhatsApp Image 2023-02-17 at 13.07.23.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 d-flex align-items-center flex-column">
+            <p class="about-text">
+              Hello !!!
+My name is Portia Lakhani, and I am a data enthusiast. I've always been fascinated by data and computers. My passion for computers drew and motivated me to pursue a career in this field. I enjoy seizing opportunities in this field and consider it my highest priority to prove myself in all aspects.<br> <br> EDUCATIONAL BACKGROUND <br> <br>CBSE 10TH BOARD:<br> My passion for computers drew and motivated me to pursue a career in this field. I enjoy seizing opportunities in this field and consider it my highest priority to prove myself in all aspects. <br> CBSE 12th BOARD:<br>
+In my 12th grade board exams, I received a 91%. I've always been a computer enthusiast with an analytical approach to everything. This aided me in selecting my core subjects in 12th grade.
+            </p>
+            <div class="text-center" id="motivato"></div>
+            <br />
+            <button class="button button-secondary" onclick="motivateMe()">
+              Next quote
+            </button>
+          </div>
+        </section>
+        <!-- Projects -->
+        <section class="projects" id="projects">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="./assets/Python-Symbol.png" />
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-card-title">Python</h3>
+                  <p class="project-card-text">
+                    I've been using Python for quite some time. 
+                     It took some time, but I finally have the upper hand. The language has so many wonderful aspects and functions.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="./assets/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" />
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-card-title">MySQL</h3>
+                  <p class="project-card-text">
+                    SQL is well suited for data manipulation because it is used to view, manage, and access that data. It makes testing and manipulating data easier for users. 
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="./assets/Microsoft_Office_Excel_(2019–present).svg.png" />
+                </div>
+                <div class="project-card-content">
+                  <h3 class="project-card-title">MsExcel</h3>
+                  <p class="project-card-text">
+                    It's simple to user-friendly software. It's incredible to be able to get the answers you need quickly without having to wait for long periods of time. It makes everything easier .
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts" id="contacts">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Contacts</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-8 offset-md-2">
+              <!-- <p>
+                💌 Feel free to get in touch with me by
+                <a href="mailto:vossoemailaqui">Email</a> 💌
+              </p> -->
+              <form action="mailto:vossoemailaqui" method="post">
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Enter your name"
+                    name="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter email"
+                    name="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    name="text"
+                  ></textarea>
+                </div>
+                <div class="text-right">
+                  <button type="submit" class="button button-primary">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="text-center">
+        <a href="C:/Users/portia/Downloads/my-first-portfolio-final-master/my-first-portfolio-final-master/index.html#contacts class="social github"></a>
+        <a href="" class="social instagram"></a>
+          <p class="copy">&copy; CONTACT DETAILS</p>
+          <p class="copy">
+               Mob no: 8349729005
+              <a href="file:///C:/Users/portia/Downloads/my-first-portfolio-final-master/my-first-portfolio-final-master/index.html#contacts" target="_blank">Portia Lakhani
+              </a
+      >
+          </p>
+      </footer>
+      <!-- Website scripts -->
+      <script src="assets/js/app.js"></script>
+      <!-- Ion icons scripts -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </div>
+    </footer>
+  </body>
+</html>
